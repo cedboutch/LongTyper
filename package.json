@@ -1,0 +1,16 @@
+{
+  "name": "typing-speed-calculator",
+  "version": "1.0.0",
+  "description": "A typing speed calculator application",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
